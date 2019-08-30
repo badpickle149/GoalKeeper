@@ -3,10 +3,14 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		49125624230A1AFD00533425 /* GoalDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49125623230A1AFD00533425 /* GoalDetailsViewController.swift */; };
+		495D253C230F4593009F1F2C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 495D253B230F4593009F1F2C /* GoogleService-Info.plist */; };
+		495D253E230F9151009F1F2C /* NewGoalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 495D253D230F9151009F1F2C /* NewGoalViewController.swift */; };
+		495D25422311099E009F1F2C /* GoalSubmitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 495D25412311099E009F1F2C /* GoalSubmitViewController.swift */; };
 		49811D6F22ED17F10055754D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49811D6E22ED17F10055754D /* AppDelegate.swift */; };
 		49811D7122ED17F10055754D /* GoalKeeperController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49811D7022ED17F10055754D /* GoalKeeperController.swift */; };
 		49811D7422ED17F10055754D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49811D7222ED17F10055754D /* Main.storyboard */; };
@@ -14,9 +18,16 @@
 		49811D7922ED17F20055754D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49811D7722ED17F20055754D /* LaunchScreen.storyboard */; };
 		522EAA2B2304ECF600FA6CCE /* GoalCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522EAA2A2304ECF600FA6CCE /* GoalCell.swift */; };
 		522EAA312304F23400FA6CCE /* Goal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522EAA302304F23400FA6CCE /* Goal.swift */; };
+		DBAC57B0B68116926A9E7070 /* Pods_GoalKeeper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AEEFDCCFA9EE37B6FB202B8 /* Pods_GoalKeeper.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0FC7DB7A6B024BA23A42A1E9 /* Pods-GoalKeeper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoalKeeper.release.xcconfig"; path = "Target Support Files/Pods-GoalKeeper/Pods-GoalKeeper.release.xcconfig"; sourceTree = "<group>"; };
+		3AEEFDCCFA9EE37B6FB202B8 /* Pods_GoalKeeper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GoalKeeper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		49125623230A1AFD00533425 /* GoalDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalDetailsViewController.swift; sourceTree = "<group>"; };
+		495D253B230F4593009F1F2C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		495D253D230F9151009F1F2C /* NewGoalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewGoalViewController.swift; sourceTree = "<group>"; };
+		495D25412311099E009F1F2C /* GoalSubmitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalSubmitViewController.swift; sourceTree = "<group>"; };
 		49811D6B22ED17F10055754D /* GoalKeeper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoalKeeper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		49811D6E22ED17F10055754D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		49811D7022ED17F10055754D /* GoalKeeperController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalKeeperController.swift; sourceTree = "<group>"; };
@@ -26,6 +37,7 @@
 		49811D7A22ED17F20055754D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		522EAA2A2304ECF600FA6CCE /* GoalCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalCell.swift; sourceTree = "<group>"; };
 		522EAA302304F23400FA6CCE /* Goal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Goal.swift; sourceTree = "<group>"; };
+		DBD2A263223362D105039B52 /* Pods-GoalKeeper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoalKeeper.debug.xcconfig"; path = "Target Support Files/Pods-GoalKeeper/Pods-GoalKeeper.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +45,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DBAC57B0B68116926A9E7070 /* Pods_GoalKeeper.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +57,8 @@
 			children = (
 				49811D6D22ED17F10055754D /* GoalKeeper */,
 				49811D6C22ED17F10055754D /* Products */,
+				620C1F3C05B5EC858A108237 /* Pods */,
+				A452686B339268246127BB78 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -66,8 +81,29 @@
 				49811D7722ED17F20055754D /* LaunchScreen.storyboard */,
 				49811D7A22ED17F20055754D /* Info.plist */,
 				522EAA302304F23400FA6CCE /* Goal.swift */,
+				495D253B230F4593009F1F2C /* GoogleService-Info.plist */,
+				49125623230A1AFD00533425 /* GoalDetailsViewController.swift */,
+				495D253D230F9151009F1F2C /* NewGoalViewController.swift */,
+				495D25412311099E009F1F2C /* GoalSubmitViewController.swift */,
 			);
 			path = GoalKeeper;
+			sourceTree = "<group>";
+		};
+		620C1F3C05B5EC858A108237 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DBD2A263223362D105039B52 /* Pods-GoalKeeper.debug.xcconfig */,
+				0FC7DB7A6B024BA23A42A1E9 /* Pods-GoalKeeper.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A452686B339268246127BB78 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3AEEFDCCFA9EE37B6FB202B8 /* Pods_GoalKeeper.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,9 +113,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 49811D7D22ED17F20055754D /* Build configuration list for PBXNativeTarget "GoalKeeper" */;
 			buildPhases = (
+				1095625A25C55402E5353C87 /* [CP] Check Pods Manifest.lock */,
 				49811D6722ED17F10055754D /* Sources */,
 				49811D6822ED17F10055754D /* Frameworks */,
 				49811D6922ED17F10055754D /* Resources */,
+				2F7FBCB937978BD9B7C4B43C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -129,6 +167,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				49811D7922ED17F20055754D /* LaunchScreen.storyboard in Resources */,
+				495D253C230F4593009F1F2C /* GoogleService-Info.plist in Resources */,
 				49811D7622ED17F20055754D /* Assets.xcassets in Resources */,
 				49811D7422ED17F10055754D /* Main.storyboard in Resources */,
 			);
@@ -136,14 +175,59 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1095625A25C55402E5353C87 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GoalKeeper-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2F7FBCB937978BD9B7C4B43C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GoalKeeper/Pods-GoalKeeper-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GoalKeeper/Pods-GoalKeeper-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GoalKeeper/Pods-GoalKeeper-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		49811D6722ED17F10055754D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				495D253E230F9151009F1F2C /* NewGoalViewController.swift in Sources */,
 				522EAA312304F23400FA6CCE /* Goal.swift in Sources */,
+				495D25422311099E009F1F2C /* GoalSubmitViewController.swift in Sources */,
 				49811D7122ED17F10055754D /* GoalKeeperController.swift in Sources */,
 				49811D6F22ED17F10055754D /* AppDelegate.swift in Sources */,
+				49125624230A1AFD00533425 /* GoalDetailsViewController.swift in Sources */,
 				522EAA2B2304ECF600FA6CCE /* GoalCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -288,9 +372,11 @@
 		};
 		49811D7E22ED17F20055754D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DBD2A263223362D105039B52 /* Pods-GoalKeeper.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DBM4MJYTWC;
 				INFOPLIST_FILE = GoalKeeper/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -305,9 +391,11 @@
 		};
 		49811D7F22ED17F20055754D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0FC7DB7A6B024BA23A42A1E9 /* Pods-GoalKeeper.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DBM4MJYTWC;
 				INFOPLIST_FILE = GoalKeeper/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

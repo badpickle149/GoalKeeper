@@ -12,9 +12,11 @@ class Goal {
     
     var title: String
     var bodyText: String
+    var key: String
     
-    init(title: String, bodyText: String) {
+    init(title: String, bodyText: String, key: String) {
         self.title = title
         self.bodyText = bodyText
+        self.key = key
     }
 }

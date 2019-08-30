@@ -11,11 +11,14 @@ import UIKit
 class GoalCell: UITableViewCell {
 
     
-    @IBOutlet weak var bodyText: UILabel!
+//    @IBOutlet weak var bodyText: UILabel!
     @IBOutlet weak var title: UILabel!
+    @IBOutlet weak var dueDate: UILabel!
     
-    func setFields(body: String, title: String) {
-        self.bodyText.text = body
+    func setFields(title: String, time: String) {
+        self.dueDate.text = time
+        self.dueDate.font = self.dueDate.font.withSize(20)
         self.title.text = title
+        self.title.font = self.title.font.withSize(20)
     }
 }

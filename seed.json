@@ -1,0 +1,14 @@
+{
+    "goals": [
+        {
+            "goalName": "Eat A Chipotle Burrito",
+            "goalText": "Wow I love Chipotle Burritos",
+            "id": 1
+        },
+        {
+            "goalName": "Finish all this homework",
+            "goalText": "I love chipotle",
+            "id": 2
+        }
+    ]
+}
